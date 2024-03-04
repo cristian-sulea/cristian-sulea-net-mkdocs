@@ -1,3 +1,3 @@
 # cristian.sulea.net with MkDocs
 
-> *An attempt to rewrite my personal site using MkDoks.*
+> *An attempt to rewrite my personal site using MkDoks (https://www.mkdocs.org/).*
