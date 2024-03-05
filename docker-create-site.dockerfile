@@ -5,7 +5,7 @@ RUN apk add --no-cache curl
 RUN curl https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py
 RUN python3 /tmp/get-pip.py
 
-COPY ./app/ /app/
+COPY ./src/ /app/
 WORKDIR /app/
 
 RUN pip install mkdocs
