@@ -97,10 +97,10 @@
                             </li>
                         {%- else %}
                                 {% if nav_item.url %}
-                                <li class="navitem{% if nav_item.active %} active{% endif %}">
-                                    <a href="{{ nav_item.url|url }}" class="nav-link">{{ nav_item.title }}</a>
-                                    {% endif %}
-                                </li>
+                                    <li class="navitem{% if nav_item.active %} active{% endif %}">
+                                        <a href="{{ nav_item.url|url }}" class="nav-link">{{ nav_item.title }}</a>
+                                    </li>
+                                {% endif %}
                             {%- endif %}
                         {%- endfor %}
                         </ul>
